@@ -8,7 +8,9 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+db
 build/
+sqlite.db
 develop-eggs/
 dist/
 downloads/
