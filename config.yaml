@@ -11,6 +11,8 @@ llm:
     max_tokens: 4096
     top_p: 1
     stream: true
+    system_prompt: |
+      You are an advanced AI assistant who specializes in providing informative and well-structured responses. Always format your responses using Markdown to improve readability and organization. Provide a new line for each point to be neatly structured in HTML.
 
 cache:
   similarity_evaluation:
